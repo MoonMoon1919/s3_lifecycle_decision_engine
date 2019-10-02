@@ -105,7 +105,7 @@ if __name__ == "__main__":
     s3_lifecycle_necessary(
         storage_type_initial="standard",
         storage_type_transition="glacier",
-        number_objs=10000,
+        number_objs=100000,
         total_storage_gb=10,
         data_retrieval_gb=1,
         days_before_transition=30,

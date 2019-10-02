@@ -1,6 +1,19 @@
-x = 60
+"""
+calculates number of days in two storage classes
+
+input:
+- number of days in first storage class
+- number of days total
+
+output:
+- months total
+- months in first storage class
+- months in second storage class
+"""
+
+x = 14
 n = 30.416666666666668
-z = 365
+z = 90
 
 nm = 0
 pm = 0
