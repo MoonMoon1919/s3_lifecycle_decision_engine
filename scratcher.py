@@ -1,4 +1,12 @@
-"""Module for helping calculate if implementing a S3 lifecycle policy will be necessary and cost effective."""
+"""
+Module for helping calculate if implementing a S3 lifecycle policy will be necessary and cost effective.
+
+
+input:
+- months total
+- months in first storage class
+- months in second storage class
+"""
 
 data = {
     "standard": {"price_per_gb": 0.023},
