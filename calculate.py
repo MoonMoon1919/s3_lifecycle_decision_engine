@@ -122,7 +122,7 @@ def main() -> bool:
     """
     starting_storage_class = "standard"
     target_storage_class = "glacier"
-    total_storage_gb = 1000
+    total_storage_gb = 3
     number_objs = 1000000
     data_retrieved_gb = 1
 
@@ -155,6 +155,7 @@ def main() -> bool:
         number_objs=number_objs,
     )
 
+    # To do! calculate number of transitions over months
     target_transition_cost = calculate_transition_cost(
         number_objs=number_objs, target_storage_class=target_storage_class
     )
