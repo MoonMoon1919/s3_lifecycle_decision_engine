@@ -22,3 +22,6 @@ Usage
 ```
 python3 main.py --ssc <starting storage class> --tsc <target storage class> --tsg <size in gb> --drg <data in gb retrieved> --iscd <number of days in starting storage class> --td <number of days to model> --nobj <number of objects stored>
 ```
+
+
+This project is licensed under the terms of the MIT license.
